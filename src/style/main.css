@@ -1,0 +1,147 @@
+:root {
+    color-scheme: light;
+}
+body {
+    font-size: 30px;
+}
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-items-center {
+    justify-items: center;
+}
+
+.ml-4 {
+    margin-left: 4%;
+}
+
+.mt-2 {
+    margin-top: 20px;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.mr-auto {
+    margin-right: auto;
+}
+
+/* Header */
+.header .brand-logo {
+    position: static;
+}
+
+.header .currency-select {
+    padding-left: 5px;
+    border-radius: 8px;
+}
+
+.header .currency-select input.select-dropdown {
+    margin: 0;
+    color: #fff;
+    border-bottom: none;
+    border-radius: 8px;
+}
+
+.dropdown-content {
+    border-radius: 8px;
+}
+
+.header .currency-select {
+    width: 120px;
+}
+
+.header .currency-select input.select-dropdown:focus {
+    border-bottom: none;
+}
+
+.header .currency-select .caret {
+    fill: #fff;
+}
+
+.header .logo {
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Card */
+.card .input-field {
+    width: 100%;
+}
+
+.input-field .prefix {
+    bottom: 4px;
+    top: inherit !important;
+}
+
+/* Ticket */
+.ticket-card {
+    padding: 10px 15px;
+}
+
+.ticket-airline-name {
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.ticket-airline-img {
+    max-width: 100px;
+    margin-right: 20px;
+}
+
+.ticket-destination {
+    margin-bottom: 10px;
+    border-bottom: 1px dashed gray;
+}
+
+.ticket-destination .ticket-city {
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+.ticket-destination i.material-icons {
+    font-size: 26px;
+}
+
+.ticket-time-departure {
+    font-weight: bold;
+    color: gray;
+}
+
+.ticket-price {
+    font-size: 25px;
+    padding: 5px;
+    background: #6a1b9a;
+    color: #fff;
+}
+
+.ticket-additional-info {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.tickets-empty-res-msg {
+    padding: 10px 15px;
+    text-align: center;
+    background: whitesmoke;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Preloader */
+.preloader-container .progress {
+    position: fixed;
+    margin: 0;
+}
