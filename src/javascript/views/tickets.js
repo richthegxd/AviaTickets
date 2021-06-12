@@ -15,6 +15,9 @@ class TicketsUI {
 
         let fragment = "";
 
+        const resultTextTemplate = TicketsUI.resultTextTemplate();
+        fragment += resultTextTemplate;
+
         tickets.forEach((ticket) => {
             const template = TicketsUI.ticketTemplate(ticket);
             fragment += template;
@@ -32,10 +35,17 @@ class TicketsUI {
         this.container.insertAdjacentHTML("afterbegin", template);
     }
 
+    static resultTextTemplate() {
+        return `
+        <div class="tickets-empty-res-msg">
+            Found tickets for your request:
+        </div> 
+        `
+    }
     static emptyMessageTemplate() {
         return `
         <div class="tickets-empty-res-msg">
-            По вашему запросу билетов не найдено.
+            No tickets were found for your request.
         </div> 
         `;
     }

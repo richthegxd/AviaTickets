@@ -3,7 +3,8 @@ class CurrencyUI {
         this.currency = document.querySelector("#currency");
         this.dictionary = {
             USD: "$",
-            EUR: "€"
+            EUR: "€",
+            RUB: "₽"
         }
     }
 
